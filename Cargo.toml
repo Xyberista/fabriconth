@@ -8,4 +8,4 @@ authors = ["Tony Chen <tonychen8472@outlook.com>"]
 
 [dependencies]
 bracket-lib = "0.8.1"
-specs = "0.17.0"
+specs = { version = "0.17.0", features = ["specs-derive"] }
